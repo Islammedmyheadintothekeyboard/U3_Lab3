@@ -1,0 +1,4 @@
+1. The base case is when the list argument's length hits 1.
+2. The list argument's length will keep shrinking towards one as the list keeps on getting split in half.
+3. For communicating I think floor division will be useful as to avoid floats when indexing, since I will be using splicing and dividing the list's length by two to determine where to cut.
+4. It is a more efficient method to use compared to others and is faster.
